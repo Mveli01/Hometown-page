@@ -1,0 +1,70 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(#DBA159,#D9F9A5);
+   
+}
+
+.sowetohd {
+    color: black;
+    background: #f7feed;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 5px 50px;
+}
+
+.header {
+    background: url("/Soweto.webp");
+    background-size: cover; 
+    height: 330px;
+    flex-direction: column; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, h2, h3, h4, p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.activitySection {
+    display: flex;
+    justify-content: center;
+    margin: 0px 50px 0px 50px; 
+}
+
+.activityImage {
+    width: 150px;
+    border-radius: 100%;      
+}
+
+.card {
+    display: flex;
+    padding: 30px;
+    border: 2px none;
+    border-radius: 10px;
+    margin: 30px 150px 50px 150px;
+    justify-content: space-evenly;
+    background: blanchedalmond;
+    border-bottom: 5px solid burlywood;
+}
+
+.minister {
+    width: 200px;
+    border-radius: 10px;
+    margin: 0px 5px;
+}
+
+.psa {
+    font-family: cursive;
+}
